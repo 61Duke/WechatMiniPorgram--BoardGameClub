@@ -1,0 +1,17 @@
+.about-game {
+  font-size: 45rpx;
+  color: black;
+}
+.game {
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+  margin-right: 30rpx;
+  color: #666;
+  line-height: 60rpx;
+  letter-spacing: 2px;
+}
+page {
+  height: 100rpx;
+  background-color: #f5f5dc;
+}
+

@@ -1,0 +1,24 @@
+<view class="container">
+  <swiper indicator-dots="true" autoplay="true" interval="5000">
+    <swiper-item>
+      <image catchtap="onSwiperTap1" src="/image/about-game.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image catchtap="onSwiperTap2" src="/image/about-author.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <view class="games">
+    <view class="ripple" style="{{rippleStyle}}"></view>
+    <view class="undercover" bindtap="onUndercoverTap">
+      <image src="/image/undercover-home.jpg"></image>
+    </view>
+    <view class="ripple" style="{{rippleStyle}}"></view>
+    <view class="roulette" bindtap="onRouletteTap">
+      <image src="/image/roulette-home.jpg"></image>
+    </view>
+    <view class="ripple" style="{{rippleStyle}}"></view>
+    <view class="gobang" bindtap="onGoBangTap">
+      <image src="/image/gabang.png"></image>
+    </view>
+  </view>
+</view>

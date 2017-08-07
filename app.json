@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/gobang/gobang",
+    "pages/roulette-caicaicai/roulette-caicaicai",
+    "pages/roulette-caicaicai/guess/guess",
+    "pages/undercover/punish/punish",
+    "pages/undercover/index/index",
+    "pages/introduction/introduction",
+    "pages/author/author",
+    "pages/roulette-caicaicai/roulette/roulette",
+    "pages/undercover/start/start",
+    "pages/undercover/speak/speak"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f5f5dc",
+    "navigationBarTitleText": "聚乐会",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,24 @@
+.player-list {
+  align-content: center;
+  flex-direction: row;
+  margin-top: 10rpx;
+  height: 110rpx;
+  font-size: 41rpx;
+  width: 730rpx;
+}
+
+.info {
+  height: 70rpx;
+  width: 70rpx;
+  float: right;
+  margin-top: 24rpx;
+  margin-right: 10rpx;
+}
+
+.player {
+  float: left;
+}
+
+button {
+  background-color: beige;
+}

@@ -1,0 +1,44 @@
+/**index.wxss**/
+
+.start_img {
+  position: absolute;
+  bottom: 12%;
+  left: 27%;
+  height: 105rpx;
+  width: 340rpx;
+  border: 4rpx solid green;
+  border-radius: 16rpx;
+  margin: 0 auto;
+}
+
+.start_img:hover {
+  position: absolute;
+  bottom: 12%;
+  left: 27%;
+  height: 105rpx;
+  width: 340rpx;
+  border: 6rpx solid gold;
+  border-radius: 16rpx;
+  margin: 0 auto;
+}
+
+.section_gap {
+  margin: 0 auto;
+  position: absolute;
+  height: 25%;
+  width: 50%;
+  right: 2rpx;
+  top: 35%;
+  color: white;
+  font-size: 50rpx;
+}
+
+.start_img {
+  width: 450rpx;
+  height: 100rpx;
+  bottom: 17%;
+}
+
+.bg {
+  font-family: microsoft yahei;
+}

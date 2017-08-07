@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="qipan">
+<view class="title">请选择黑子的玩家先下：</view>
+  <view class="block" wx:for="{{vak}}" bindtap="step" data-pos="{{index}}">
+  <view class="{{item}}"></view>
+  </view>
+</view>
+

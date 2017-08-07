@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="gragon">
+    <image catchtap="onDragonTap" src="/image/gragon.jpg">
+    </image>
+    <text class="gragons-score">累计分数：{{gragons}}</text>
+  </view>
+  <view class="phoenix">
+    <image catchtap="onPhoenixTap"  src="/image/phoenix.jpg"></image>
+    <text class="phoenix-score">累计分数：{{phoenix}}</text>
+  </view>
+  <image catchtap="onHomePageTap" class="homepage" src="/image/homepage.jpg"></image>
+</view>

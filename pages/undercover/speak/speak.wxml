@@ -1,0 +1,10 @@
+<view class="container">
+  <block wx:for="{{userName_list}}">
+    <view class="list">
+      <button class="player-list" bindtap="onButtonTap{{index}}">
+        <text class="player">玩家 {{item}}:</text>
+        <image class="info" src="/image/info.png "></image>
+      </button>
+    </view>
+  </block>
+</view>

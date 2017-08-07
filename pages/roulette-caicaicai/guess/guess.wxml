@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="header">
+    <text wx:if="{{judge_dragon}}" class="header-title">龙之队: {{gragons}} 分</text>
+    <text class="header-title" wx:else>凤之队: {{phoenix}} 分</text>
+  </view>
+  <view class="express-method">
+    <text>表达方式：{{awardsList_last}}</text>
+  </view>
+  <text class="timer">{{second}}</text>
+  <view class="logic">
+    <button bindtap="onContinueTap">猜猜继续</button>
+    <button bindtap="onFailTap" class="button">猜猜失败</button>
+  </view>
+  <text class="img-style" animation="{{animCollect}}">{{guess_word}}</text>
+  <image src="/image/start.png" class="img-style" animation="{{animTranspond}}" bindtap="transpond"></image>
+  <image src="/image/click-check.jpg" class="img-plus-style" animation="{{animPlus}}" bindtap="plus"></image>
+</view>

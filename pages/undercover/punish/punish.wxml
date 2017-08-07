@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="prizes">
+    <view class="prize" wx:for="{{prizeList}}" style="top:{{item.topPrize}}rpx;left:{{item.leftPrize}}rpx;background-color:{{(index === prizeIndex)?prizeSelectColor:prizeDefaultColor}}">
+      <image class="prizeImg" src="{{item.prizeImg}}"></image>
+    </view>
+  </view>
+  <view class="startBtn" catchtap="startGame" style="background-color:{{(isRunning)?'orange':'white'}};">Start</view>
+  
+</view>
+<image class="homepage" catchtap="onHomePage" src="/image/homepage.jpg"></image>
+<image class="play-again" catchtap="onPlayAgain" src="/image/Play_Again.jpg"></image>

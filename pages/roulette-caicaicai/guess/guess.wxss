@@ -1,0 +1,55 @@
+.img-plus-style {
+  height: 150rpx;
+  width: 150rpx;
+  position: absolute;
+  bottom: 90rpx;
+  right: 100rpx;
+  z-index: 100;
+  border-radius: 50%;
+}
+
+.img-style {
+  height: 150rpx;
+  width: 150rpx;
+  position: absolute;
+  bottom: 90rpx;
+  right: 100rpx;
+  opacity: 0;
+  font-size: 45rpx;
+  font-weight: 3rpx;
+}
+
+.timer {
+  font-size: 200rpx;
+  margin-top: 20rpx;
+}
+
+.header-title {
+  margin-top: 50rpx;
+  font-size: 60rpx;
+}
+
+.express-method {
+  margin-top: 50rpx;
+  font-size: 45rpx;
+  margin-left: -300rpx;
+}
+
+.logic {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  width: 300rpx;
+  height: 100%;
+}
+
+.button {
+  margin-top: 30rpx;
+}
+
+.logic button {
+  background-color: lightseagreen;
+}
+
+page {
+  background: #f5f5dc;
+}

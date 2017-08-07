@@ -1,0 +1,53 @@
+.bg_img {
+  display: -webkit-box;
+}
+
+.kapai {
+  margin: 0 auto;
+  position: absolute;
+  left: 10%;
+  top: 10rpx;
+}
+
+.paibei {
+  width: 260px;
+  height: 390px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 10px solid white;
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+}
+
+.kapai-mention {
+  color: white;
+  font-size: 50rpx;
+  margin-top: 40rpx;
+  width: 450rpx;
+}
+
+.trip {
+  color: white;
+}
+
+.write-name {
+  color: white;
+  width: 600rpx;
+  font-size: 40rpx;
+  margin-top: 10rpx;
+  float: left
+}
+
+button{
+  float: left;
+  width: 250rpx;
+  font-size: 25rpx;
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+  border-radius: 30rpx;
+  margin-top: 20rpx;
+}
+/*.form{
+  width: 750rpx;
+}*/

@@ -1,0 +1,64 @@
+/**DropDownMenu**/
+
+/*总菜单容器*/
+
+.menu {
+  display: block;
+  height: 28px;
+  position: relative;
+  background-color: black;
+}
+
+/*一级菜单*/
+
+.menu dt {
+  font-size: 19px;
+  float: left;
+  /*hack*/
+  width: 33%;
+  height: 38px;
+  border-right: 1px solid #d2d2d2;
+  border-bottom: 1px solid #d2d2d2;
+  text-align: center;
+  font-family: microsoft Yahei;
+  color: #405f80;
+  line-height: 38px;
+  z-index: 2;
+  background-color: white;
+}
+
+/*二级菜单外部容器样式*/
+
+.menu dd {
+  position: absolute;
+  width: 680rpx;
+  left: 0;
+  z-index: -99;
+  margin-left: 30rpx;
+}
+
+/*二级菜单普通样式*/
+
+.menu view {
+  font-size: 18px;
+  color: #575757;
+  height: 70px;
+  display: block;
+  padding-left: 8px;
+  font-family: microsoft Yahei;
+  justify-content: space-between;
+}
+
+/*二级菜单高亮样式*/
+
+/* 显示与隐藏 */
+
+.show {
+  /*display: block;*/
+  visibility: visible;
+}
+
+.hidden {
+  /*display: none;*/
+  visibility: hidden;
+}

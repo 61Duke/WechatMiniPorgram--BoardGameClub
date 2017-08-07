@@ -1,0 +1,16 @@
+<view class="container">
+  <image class="bg_img" src="../../../image/background.jpg" style="width: {{imagewidth}}px; height: {{imageheight}}px;" />
+  <view class="kapai">
+    <form bindsubmit="formBindsubmit" bindreset="formReset" class="form">
+      <text class="write-name">请玩家{{no+1}}填写昵称：</text>
+      <input class="write-name" name="userName" placeholder="填写您的昵称" />
+      <button formType="submit">确定</button>
+      <button formType="reset">重置</button>
+      <text class="trip">{{trip}}</text>
+    </form>
+    <view class="kapai-mention">请 {{userName}} 玩家翻牌:{{item}}</view>
+    <view bindtap="seeWord">
+      <image class="paibei" src="../../../image/poker.jpg"></image>
+    </view>
+  </view>
+</view>

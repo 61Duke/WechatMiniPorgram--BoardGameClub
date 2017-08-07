@@ -1,0 +1,23 @@
+<view class="bg">
+  <image class="bg_img" src="../../../image/undercover.jpg" style="width: {{imagewidth}}px; height: {{imageheight}}px;" />
+  <view class="section_gap">
+    <text class="section__title">游戏人数：</text>
+    <view class="body-view">
+      <slider bindchange="sliderChange" min="4" max="16" show-value/>
+    </view>
+    <view class="no_civilian">
+      平民：{{civilian}}
+    </view>
+    <view class="no_undercover">
+      卧底：{{undercover}}
+    </view>
+    <view class="no_blank">
+      白板：
+      <switch bindchange="switchChange" checked="{{blank}}" />
+    </view>
+  </view>
+
+  <!--<navigator  url="../start/start?words={{words}}" >-->
+  <image class="start_img" src="../../../image/start.gif" bindtap="startGame" />
+  <!--</navigator>-->
+</view>
